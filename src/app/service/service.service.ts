@@ -9,10 +9,10 @@ export class UserService {
   constructor(private http: HttpClient) { }
 
   getAll(){
-    return this.http.get(`${environment.api_url}all`);
+    return this.http.get(`${environment.api_url}/all`);
   }
 
   getCreateItem(body: any){
-    return this.http.post(`${environment.api_url}create`, body).subscribe();
+    return this.http.post(`${environment.api_url}/create`, body).subscribe();
   }
 }
