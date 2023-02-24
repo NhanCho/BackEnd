@@ -3,7 +3,13 @@
   justify-content: center;
   margin-top: 50px;
 }
-#des{
+
+#info{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#id,#name,#age{
   display: flex;
   justify-content: center;
 }
